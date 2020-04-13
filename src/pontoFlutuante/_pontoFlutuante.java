@@ -1,7 +1,5 @@
 package pontoFlutuante;
 
-import java.util.Locale;
-
 public class _pontoFlutuante {
 	static double x = 10.35784;
 	static void main(String[] args){
