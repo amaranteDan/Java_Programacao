@@ -8,7 +8,7 @@ public class programas {
 		
 		if(programa != null){
 			switch(programa){
-				case "calc_Consumo_Energia":
+				case "1 - Calculo de Energia":
 					programa = "calc_Consumo_Energia";
 					break;
 				case "2":

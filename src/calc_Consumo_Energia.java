@@ -18,10 +18,11 @@ public class calc_Consumo_Energia {
 		
 		consumo = (potencia / 1000) * tempo;
 		valor_consumo = (float) (tarifa * consumo);
-		
-		System.out.printf("O %s consome %f. O %f horas. O Valor a pagar e R$ %f ",aparelho, consumo, tempo, valor_consumo);
-		
 				
+		System.out.printf("Aparelho verificado: %s %n", aparelho);
+		System.out.printf("Consumo %.2f W%n", consumo);
+		System.out.printf("Tempo %.2f%n", tempo);
+		JOptionPane.showMessageDialog(null, "Valor do consumo: R$ " + valor_consumo);
 
 	}
 
